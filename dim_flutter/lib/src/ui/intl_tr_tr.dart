@@ -8,14 +8,14 @@ final Map<String, String> intlTrTr = {
   //
   //  Register
   //
-  'Register': 'Hesap Kaydı Ol',
+  'Register': 'Kayıt ol',
   'Import': 'Hesap İçe Aktar',
-  'Name': 'Ad',
+  'Name': 'İsim',
   'Nickname': 'Takma Ad',
   'Your nickname': 'Takma adınız',
 
   'Please input your nickname': 'Lütfen takma adınızı girin.',
-  'Please agree the privacy policy': 'Lütfen gizlilik politikasını okuyup kabul edin.',
+  'Please agree the privacy policy': 'Lütfen gizlilik politikasını kabul edin.',
   'Failed to import account': 'Hesap içe aktarımı başarısız oldu, lütfen mnemonik kodlarınızı kontrol edin.',
   'Failed to generate ID': 'Kimlik oluşturma başarısız oldu.',
 
@@ -40,13 +40,13 @@ final Map<String, String> intlTrTr = {
   'Save to Album': 'Albüme Kaydet',
   'Sure to save this image?': 'Bu resmi kaydetmek istediğinizden emin misiniz?',
   'Image saved to album': 'Resim başarıyla albüme kaydedildi.',
-  'Failed to save image to album': 'Bu resmi albümünüze kaydetme başarısız oldu.',
+  'Failed to save image to album': 'Albüme kaydetme başarısız oldu.',
 
   //
   //  Time
   //
-  'AM': 'AM',
-  'PM': 'PM',
+  'AM': 'ÖÖ', //There is no AM and PM in Turkish officially better to use 24H format ÖO means before noon, ÖS means after noon
+  'PM': 'ÖS',
   'Yesterday': 'Dün',
 
   'Monday': 'Pazartesi',
@@ -65,19 +65,19 @@ final Map<String, String> intlTrTr = {
 
   'Daily': '24 saat',   // 'Daily',
   'Anon': '3 gün',
-  'Weakly': '7 gün',    // 'Weakly',
+  'Weakly': '7 gün',    // 'Weakly' It should be weekly,
   'Monthly': '30 gün',  // 'Monthly',
   'Manually': 'Manuel',
 
-  'Burn After Reading': 'Okuduktan Sonra Yok Et',
+  'Burn After Reading': 'Okuduktan Sonra İmha Et',
 
   //
   //  Connection
   //
   'Waiting': 'Bekleniyor',
   'Connecting': 'Bağlanıyor',
-  'Connected': 'Bağlı',
-  'Handshaking': 'Kimlik Doğrulama',
+  'Connected': 'Bağlandı',
+  'Handshaking': 'Kimlik Doğrulanıyor',
   'Disconnected': 'Bağlantı Kesildi',
 
   //
@@ -88,7 +88,7 @@ final Map<String, String> intlTrTr = {
   'Confirm Add': 'Ekleme Onayla',
   'Confirm Delete': 'Silme Onayla',
   'Confirm Share': 'Paylaşma Onayla',
-  'Confirm Forward': 'İleri Gönderme Onayla',
+  'Confirm Forward': 'Yönlendirme Onayla',
 
   'Success': 'Başarılı',
   'Error': 'Hata',
@@ -101,12 +101,12 @@ final Map<String, String> intlTrTr = {
   'Unmuted': 'Sessizden Alındı',
   'Permission Denied': 'İzin Reddedildi',
 
-  'Refresh Stations': 'Röle İstasyonlarını Yenile',
+  'Refresh Stations': 'İstasyonları Yenile',
   'Shared': 'Başarıyla Paylaşıldı',
-  'Forwarded': 'Başarıyla İleri Gönderildi',
+  'Forwarded': 'Başarıyla Yönlendirildi',
 
   'Notice': 'Duyuru',
-  'Input Name': 'Adı Girin',
+  'Input Name': 'İsim Girin',
   'Input text message': 'Metin Mesajını Girin',
 
   // Tabs
@@ -145,27 +145,27 @@ final Map<String, String> intlTrTr = {
   //
   //  Chat Box
   //
-  'Hold to Talk': 'Konuşmak İçin Tutun',
+  'Hold to Talk': 'Konuşmak için basılı tutun',
   'Release to Send': 'Göndermek İçin Bırakın',
   'Release to Cancel': 'İptal Etmek İçin Bırakın',
 
-  'View More Members': 'Daha Fazla Üyeyi Görüntüle',
+  'View More Members': 'Diğer Üyeleri Görüntüle',
   'Group Members (@count)': 'Grup Üyeleri (@count)',
   'Non-Member': 'Üye Değil',
   'Image Not Found': 'Resim Bulunamadı',
   'Failed to load image @filename': 'Resim yüklenemedi: "@filename".',
 
-  'Forward Image': 'Resmi İleri Gönder',
-  'Forward Web Page': 'Web Sayfasını İleri Gönder',
-  'Forward Name Card': 'İsim Kartını İleri Gönder',
+  'Forward Image': 'Resmi Yönlendir',
+  'Forward Web Page': 'Web Sayfasını Yönlendir',
+  'Forward Name Card': 'İsim Kartını Yönlendir',
 
-  'Image message forwarded to @chat': 'Resim mesajı "@chat" kişisine ileri gönderildi.',
+  'Image message forwarded to @chat': 'Resim mesajı "@chat" kişisine yönlendirildi.',
   'Failed to share image with @chat': '@chat kişisiyle resim paylaşma başarısız oldu.',
 
-  'Web Page @title forwarded to @chat': 'Web sayfası "@title" "@chat" kişisine ileri gönderildi.',
+  'Web Page @title forwarded to @chat': 'Web sayfası "@title" "@chat" kişisine yönlendirildi.',
   'Failed to share Web Page @title with @chat': '@chat kişisiyle web sayfası "@title" paylaşma başarısız oldu.',
 
-  'Name Card @name forwarded to @chat': 'İsim kartı "@name" "@chat" kişisine ileri gönderildi.',
+  'Name Card @name forwarded to @chat': 'İsim kartı "@name" "@chat" kişisine yönlendirildi.',
   'Failed to share Name Card @name with @chat': '@chat kişisiyle isim kartı "@name" paylaşma başarısız oldu.',
 
   'Chat Details': 'Sohbet Detayları',
@@ -181,8 +181,8 @@ final Map<String, String> intlTrTr = {
   'Waiting to send': 'Gönderilmeyi Bekliyor',
   'Sent to relay station': 'Röle istasyonuna gönderildi',
   'Message is rejected': 'Mesaj reddedildi',
-  'Your friend received': 'Arkadaşınız aldı',
-  '@count members received': '@count üye/üyeler aldı',
+  'Your friend received': 'Arkadaşınıza iletildi',
+  '@count members received': '@count üyeye/üyelere iletildi',
   'No response': 'Cevap yok',
   'Stranded': 'Mahsur kaldı',
 
@@ -206,7 +206,7 @@ final Map<String, String> intlTrTr = {
   'Contact @name shared to @chat': 'Kişi "@name" "@chat" kişisiyle paylaşıldı.',
   'Failed to share contact @name with @chat': '@chat kişisiyle kişi "@name" paylaşma başarısız oldu.',
 
-  'Profile is updated': 'Profiliniz güncellendi ve tüm arkadaşlara yayınlandı!',
+  'Profile is updated': 'Profiliniz güncellendi!',
   'Failed to update profile': 'Profil güncelleme başarısız oldu.',
 
   'Failed to get private key': 'Özel anahtar alınamadı.',
@@ -218,10 +218,10 @@ final Map<String, String> intlTrTr = {
   //
   'Please input group name': 'Lütfen grup adını girin.',
   'Please input alias': 'Lütfen takma adı girin.',
-  'Please review invitations': 'Lütfen önce davetiyeleri gözden geçirin.',
+  'Please review invitations': 'Lütfen davetiyeleri gözden geçirin.',
 
-  'Invited by': 'Davet eden',
-  'Invitation sent': 'Tüm yöneticilere yeni bir davet gönderildi, şu anda gözden geçirilmeyi bekliyor.',
+  'Invited by': 'tarafından davet edildi.', //please put @name before: @name tarafından davet edildi.
+  'Invitation sent': 'Davetiye gönderildi.',
 
   'Sure to add this friend?': 'Bu arkadaşı eklemek istediğinizden emin misiniz?',
   'Sure to remove this friend?': 'Bu arkadaşı silmek istediğinizden emin misiniz?'
@@ -235,7 +235,7 @@ final Map<String, String> intlTrTr = {
       ' Bu işlem geri alınamaz.',
   'Failed to clear chat history': 'Sohbet geçmişi temizleme başarısız oldu.',
 
-  'Failed to set remark': 'Not ayarlama başarısız oldu.',
+  'Failed to set remark': 'Not iletme başarısız oldu.',
 
   'Never receive message from this contact': 'Bu kişiden artık mesaj almayacaksınız.',
   'Receive message from this contact': 'Bu kişiden tekrar mesaj alabilirsiniz.',
@@ -253,47 +253,47 @@ final Map<String, String> intlTrTr = {
   //
 
   'ChatBox::Description': 'Bu uygulama, DIM tarafından desteklenen, E2EE (Uçtan Uca Şifreli) teknolojisi ile çalışır.'
-      ' Mesajlarınız gönderilmeden önce şifrelenir, içeriği sadece alıcı hariç kimse çözemeyebilir.',
+      ' Mesajlarınız gönderilmeden önce şifrelenir, içeriği sadece alıcı görüntüleyebilir.',
 
   'ChatList::Description': '* Burada sadece arkadaşlarınızın sohbet geçmişleri gösterilir;\n'
-      '* Yabancılar "Kişiler -> Yeni Arkadaşlar" bölümüne yerleştirilir.',
+      '* Yabancılar "Kişiler -> Yeni Arkadaşlar" bölümüne eklenir.',
 
   'Strangers::Description': '* Burada sizinle arkadaş olmak isteyen yabancılar gösterilir;\n'
-      '* Onları kişilerinize ekleyebilir veya sadece görmezden gelebilirsiniz.',
+      '* Onları kişilerinize ekleyebilir veya görmezden gelebilirsiniz.',
 
   'GroupList::Description': '* Burada tüm gruplarınızın sohbet geçmişleri gösterilir.',
 
-  'BlockList::Description': '* Burada engellediğiniz spam gönderenler gösterilir;\n'
+  'BlockList::Description': '* Burada engellediğiniz kişiler gösterilir;\n'
       '* Bu listeden hiçbir şekilde mesaj almayacaksınız.',
 
-  'MuteList::Description': '* Burada çok fazla değer vermediğiniz gürültülü arkadaşlarınız gösterilir;\n'
+  'MuteList::Description': '* Burada bildirim almak istemediğiniz kişiler gösterilir;\n'
       '* Onlarla hala sohbet edebilirsiniz, ancak bu listeden hiçbir bildirim almazsınız.',
 
-  'Mnemonic::Description': '* Mnemonic, özel anahtarınızdır; bu kelimeleri alan herkes hesabınıza sahip olabilir;\n'
+  'Mnemonic::Description': '* Mnemonic, özel anahtarınızdır; bu anahtarı bilen herkes hesabınıza erişebilir;\n'
       '* Bunları bir kağıda yazıp güvenli bir yerde saklayabilirsiniz,'
-      ' ancak bir ekran görüntüsü alıp bilgisayarınızda saklamak önerilmez.',
+      ' ekran görüntüsü alarak mobil cihazınıda veya bilgisayarınızda saklamanızı önermeyiz.',
 
   'Administrators::Description': 'Kurallar:\n'
-      '  1. Sahip veya yöneticiler davetiyeleri inceleyebilir;\n'
-      '  2. Sahip veya yöneticiler üyeleri doğrudan ekleyip/çıkarabilir;\n'
-      '  3. Sahip yöneticileri işe alabilir/atılabilir, yöneticiler kendini istifa edebilir;\n'
-      '  4. Sahip grup adını düzenleyebilir;\n'
-      '  5. Sahip grupdan çıkamaz;\n'
-      '  6. Yönetici emekli olmadan gruptan çıkamaz.',
+      '  1. Grup sahipleri veya yöneticiler davetiyeleri inceleyebilir;\n'
+      '  2. Grup sahipleri veya yöneticiler üyeleri doğrudan ekleyip/çıkarabilir;\n'
+      '  3. Grup sahipleri veya yöneticiler yeni üye alabilir/atılabilir, yöneticiler gruptan ayrılabilir;\n'
+      '  4. Grup sahipleri grup adını düzenleyebilir;\n'
+      '  5. Grup sahipleri gruptan çıkamaz;\n'
+      '  6. Yönetici, yöneticilik yetkisi varken gruptan çıkamaz.',
 
   'Invitations::Description': 'Kurallar:\n'
-      '  1. Sahip veya yöneticiler üyeleri doğrudan ekleyebilir;\n'
-      '  2. Diğer üyeler davetiyeler oluşturabilir ve yöneticiler tarafından incelenmeyi bekleyebilir;\n'
+      '  1. Grup sahipleri veya yöneticiler üyeleri doğrudan ekleyebilir;\n'
+      '  2. Diğer üyeler davetiyeler oluşturabilir ve yöneticilerin onayına sunulur;\n'
       '  3. Herhangi bir yönetici davetiyeleri onaylayabilir ve üye listesini güncelleyebilir.',
 
   'BurnAfterReading::Description': 'Kurallar:\n'
-      '  1. Bir süre belirleyin ve uygulama bu süreden önce tüm mesajları ve dosyaları otomatik olarak silecektir;\n'
+      '  1. Belirlenen süreye göre uygulama tüm mesajları ve paylaşılan dosyaları otomatik olarak silecektir;\n'
       '  2. Silinen mesajlar ve dosyalar kurtarılamaz, bu nedenle bu özelliği dikkatli kullanın;\n'
-      '  3. Manuel mod\'a ayarlamak, mesajları ve dosyaları artık otomatik olarak silmeyecek.',
+      '  3. Manuel mod\'un seçilmesi, mesajların ve dosyaların otomatik olarak silinmesini engelleyecektir.',
 
   'RelayStations::Description': 'Kurallar:\n'
       '  1. En hızlı yanıtı veren istasyon, mevcut röle istasyonu olarak seçilecektir;\n'
-      '  2. Eğer bazı istasyonlar seçildiyse, seçilenlerden en hızlı olan seçilecektir;\n'
+      '  2. Manuel olarak birden fazla istasyon seçildiyse, seçilenler arasından en hızlı olan kullanılacaktır;\n'
       '  3. Hiçbir istasyon seçilmediyse, otomatik olarak tüm istasyonlardan seçilecektir.',
 
 };
